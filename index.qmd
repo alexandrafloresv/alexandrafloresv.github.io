@@ -1,15 +1,19 @@
 ---
-title: "alexandrafloresv.github.io"
+title: "Home"
 ---
 
-## Spatial Analyst \| Conservation \| Remote Sensing
+### Spatial Analyst \| Conservation \| Remote Sensing
 
 Environmental Engineer working with spatial data and R to understand landscape dynamics and support the conservation of forests.
 
 ### Featured Projects
 
-In progress...
+Projects coming soon! I'm currently working on spatial analysis workflows and will be showcasing them here.
 
-### Skills
+### Skills & Tools
 
-**Tools**: ArcGis Pro, R, QGIS
+**Tools**: ArcGis Pro, R
+
+**GIS & Remote Sensing:** ArcGIS Pro, QGIS
+
+**Programming:** R

@@ -3,12 +3,21 @@ project:
   output-dir: docs
   
 website:
-  title: "alexandrafloresv.github.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Alexandra Flores"
+  sidebar:
+    style: "docked"
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
+    tools:
+      - icon: github
+        href: https://github.com/alexandrafloresv
+      - icon: behance
+      - href: https://www.behance.net/alexandrafloresv 
 
 format:
   html:
