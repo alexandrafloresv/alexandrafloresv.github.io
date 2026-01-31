@@ -1,0 +1,15 @@
+---
+title: "About"
+---
+
+I am an Environmental Engineer focused on spatial analysis and remote sensing.
+
+My work includes spatial data analysis and developing reproducible workflows in R to support ecological interpretation and decision-making.
+
+I an particularly interested in monitoring forests, land-use change, and the usage of spatial data and tools for conservation.
+
+Currently, I am continuing to strengthen my technical skills in spatial modeling and remote sensing, and in this is a site I will be showcasing projects I make as part of my learning.
+
+### Contact
+
+[Email](mlfloresv@unitru.edu.pe)
