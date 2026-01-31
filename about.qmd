@@ -1,0 +1,31 @@
+---
+title: "About"
+---
+
+I am an Environmental Engineer from Trujillo, Perú with experience in environmental management, GIS and spatial analysis.
+
+My professional experience spans environmental consulting, where I have worked on environmental impact assessment and environmental monitoring across agriculture, production, and energy sectors. I have also worked extensively in municipal and industrial solid waste management. 
+
+Beyond consulting, I've participated in biological monitoring fieldwork in the Tambopata National Reserve (Madre de Dios, Peru), where I gained hands-on experience with wildlife monitoring methodologies.I've also collaborated with conservation organizations like FUNDA (Colombia) on managing vegetation databases and remote vegetation mapping the páramo ecosystem using GIS.
+
+Beyond technical work, I have experience in education, environmental communication and graphic design through volunteer work with NGOs, where I created visual content to support diverse initiatives in my community.
+
+### Current focus
+
+I am particularly interested in monitoring forests, land-use change, and the usage of spatial data and tools for conservation. 
+
+Currently, I am continuing to strengthen my skills in spatial modeling and remote sensing, with a particular interest in:
+
+-   Forest monitoring.
+
+-   Land-use change detection.
+
+-   Developing reproducible workflows in R for spatial analysis.
+
+-   Remote sensing aplications for environmental management.
+
+This website will showcase projects I develop as part of my learning journey.
+
+### Contact
+
+**Email:** [mlfloresv@unitru.edu.pe](mailto:mlfloresv@unitru.edu.pe)

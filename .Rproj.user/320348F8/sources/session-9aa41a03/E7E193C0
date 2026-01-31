@@ -3,7 +3,7 @@
     "path": "~/Rstudio Projects/alexandrafloresv.github.io/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "425099736",
     "contents": "",
     "dirty": false,
     "created": 1769829389964.0,
@@ -17,15 +17,15 @@
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
         "rmdVisualModeLocation": "718:70.28571319580078",
-        "cursorPosition": "6,42",
-        "scrollLine": "6"
+        "cursorPosition": "8,374",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1769834737,
+    "lastKnownWriteTime": 1769875545,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1769834737972,
+    "last_content_update": 1769875545431,
     "read_only": false,
     "read_only_alternatives": []
 }
