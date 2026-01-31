@@ -1,0 +1,5 @@
+[1,"==> quarto preview index.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Alexandra Flores\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  toc: true\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  editor: visual\n  theme:\n    - cosmo\n    - brand\n  title: Home\n  \n"]
+[1,"Output created: docs\\index.html\n\n"]
+[1,"Preparing to preview\n\nWatching files for changes\nBrowse at http://localhost:3252/\nListening on http://127.0.0.1:3252/\n"]
+[1,"GET: /\n"]

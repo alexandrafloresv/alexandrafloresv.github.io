@@ -1,0 +1,24 @@
+---
+title: "Home"
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="google-site-verification" content="<meta name="google-site-verification" content="K26Jfx-ukB1P-x8MB9ZYUYA0_2xgkBkLi0nAvuM7Flk" />">
+---
+
+### Spatial Analyst \| Conservation \| Remote Sensing
+
+Environmental Engineer working with spatial data and R to understand landscape dynamics and support the conservation of forests.
+
+### Featured Projects
+
+Projects coming soon! I'm currently working on spatial analysis workflows and will be showcasing them here.
+
+### Skills & Tools
+
+**Tools**: ArcGis Pro, R
+
+**GIS & Remote Sensing:** ArcGIS Pro, QGIS
+
+**Programming:** R

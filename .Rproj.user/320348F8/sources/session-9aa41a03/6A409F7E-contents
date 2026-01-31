@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Alexandra Flores"
+  sidebar:
+    style: "docked"
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
+    tools:
+      - icon: github
+        href: https://github.com/alexandrafloresv
+      - icon: behance
+      - href: https://www.behance.net/alexandrafloresv 
+  navbar:
+      right:
+      - text: "🌐"
+        menu:
+          - text: "English"
+            href: index.qmd
+          - text: "Español"
+            href: index.es.qmd
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+
