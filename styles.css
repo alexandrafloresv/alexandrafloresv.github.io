@@ -14,3 +14,16 @@ h1, h2, h3 {
   color: #555 !important;
   font-size: 0.9rem;
 }
+
+.navbar {
+  background-color: #f0f0ed !important;
+  border-bottom: none;
+}
+
+.navbar-brand {
+  color: #333 !important;
+}
+
+.nav-link {
+  color: #555 !important;
+}
