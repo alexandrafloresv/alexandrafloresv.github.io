@@ -5,8 +5,21 @@ body {
 }
 
 /* Lighter, thinner headings */
-h1, h2, h3 {
+h1, h2 {
   font-weight: 300;
+}
+
+h3 {
+  font-size: 1.05rem !important;
+  font-weight: 100 !important;
+}
+h5 {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+.quarto-title {
+  margin-bottom: 2rem;
 }
 
 /* Subtle nav link style */
@@ -46,7 +59,56 @@ body {
 code {
   font-family: 'Courier New', monospace;
   font-size: 0.85rem;
-  background: none;
   color: #555;
   padding: 0;
+}
+/* Código con fondo amarillo - reemplaza la anterior */
+.column code {
+ /* background-color: #FFcd00 !important;*/
+  border: none;
+  border-radius: 3px;
+  padding: 1px 5px;
+  color: black !important;
+}
+
+/* Hides captions on grid */
+.quarto-figure figcaption {
+  display: none;
+}
+
+/* Link con caja - reemplaza la anterior */
+a.project-link {
+  text-decoration: none;
+  border: 1.5px solid #484848;
+  border-radius: 6px;
+  padding: 2px 8px;
+  color: black;
+  font-size: 0.85rem;
+}
+
+a.project-link:hover {
+  box-shadow: 2px 2px 0px #484848;
+}
+
+/* Add space under description of pages*/
+.description {
+  margin-bottom: 2rem;
+}
+/*IMAGE*/
+.column img {
+  border: 1.5px solid #484848;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.column img:hover {
+  box-shadow: 2px 2px 0px #484848;
+}
+/*For the grid*/
+.column p {
+  margin-bottom: 0.4rem;
+}
+
+.column strong {
+  display: block;
+  margin-bottom: 0.3rem;
 }

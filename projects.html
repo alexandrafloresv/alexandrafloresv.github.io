@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Personal GIS projects completed as part of coursework and self-directed learning">
 
 <title>Projects – Alexandra Flores</title>
 <style>
@@ -42,6 +41,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,11 +130,6 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Projects</h1>
 </div>
 
-<div>
-  <div class="description">
-    Personal GIS projects completed as part of coursework and self-directed learning
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -147,54 +144,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="project-grid">
-<div class="project-card" onclick="openModal('modal1')">
-<img src="images/project1.jpg" alt="Urban Green Space Analysis">
-<div class="project-info">
-<pre><code>&lt;h3&gt;Urban Green Space Analysis&lt;/h3&gt;
-&lt;p&gt;Spatial analysis of urban green spaces and their accessibility.&lt;/p&gt;
-&lt;code&gt;ArcGIS Pro · Python&lt;/code&gt;</code></pre>
+<p>This portfolio documents my work in spatial analysis and conservation combining professional experience in environmental management with ongoing development in remote sensing and reproducible workflows in R.</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/p01_aer_02.png" class="lightbox" data-gallery="project01" data-glightbox="description: .lightbox-desc-1;title:Slope classification (FAO, 2009);" title="Slope classification (FAO, 2009)"><img src="images/p01_aer_02.png" class="img-fluid figure-img" alt="Slope classification (FAO, 2009)"></a></p>
+<figcaption>Slope classification (FAO, 2009)</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/p01_aer_01.png" class="lightbox" data-gallery="project01" data-glightbox="description: .lightbox-desc-2;title:Elevation histogram;" title="Elevation histogram"><img src="images/p01_aer_01.png" class="img-fluid figure-img" style="display:none" alt="Elevation histogram"></a></p>
+<figcaption>Elevation histogram</figcaption>
+</figure>
+</div>
+<p><strong>Topographic Analysis of Alto Mayo and Cordillera de Colán Protected Areas</strong></p>
+<p>Slope and elevation analysis of two protected areas in northern Peru.</p>
+<p><a href="https://mastergis.com/proyecto/analisis-de-pendientes-mediante-modelo-digital-de-elevacion-en-el-area-de-conectividad-potencial-de-las-areas-naturales-protegidas-bosque-de-proteccion-cordillera-de-colan-y-santuario-nacional-alto-mayo-peru" class="project-link">Full document</a></p>
+<p><code>RStudio</code> <code>R</code></p>
 </div>
 </div>
-<div class="project-card" onclick="openModal('modal2')">
-<img src="images/project2.jpg" alt="Forest Cover Change Detection">
-<div class="project-info">
-<pre><code>&lt;h3&gt;Forest Cover Change Detection&lt;/h3&gt;
-&lt;p&gt;Multi-temporal analysis using satellite imagery.&lt;/p&gt;
-&lt;code&gt;QGIS · GDAL · Remote Sensing&lt;/code&gt;</code></pre>
-</div>
-</div>
-<!-- Copy and paste more cards here as needed -->
-</div>
-<!-- MODALS -->
-<div id="modal1" class="modal" onclick="closeModal('modal1')">
-<div class="modal-content" onclick="event.stopPropagation()">
-<pre><code>&lt;span class="modal-close" onclick="closeModal('modal1')"&gt;&amp;times;&lt;/span&gt;
-&lt;img src="images/project1.jpg" alt="Urban Green Space Analysis"/&gt;
-&lt;h3&gt;Urban Green Space Analysis&lt;/h3&gt;
-&lt;p&gt;Longer description here. Explain what you did, why, and what you found. You can write as much as you want here.&lt;/p&gt;
-&lt;code&gt;ArcGIS Pro · Python&lt;/code&gt;</code></pre>
-</div>
-</div>
-<div id="modal2" class="modal" onclick="closeModal('modal2')">
-<div class="modal-content" onclick="event.stopPropagation()">
-<pre><code>&lt;span class="modal-close" onclick="closeModal('modal2')"&gt;&amp;times;&lt;/span&gt;
-&lt;img src="images/project2.jpg" alt="Forest Cover Change Detection"/&gt;
-&lt;h3&gt;Forest Cover Change Detection&lt;/h3&gt;
-&lt;p&gt;Longer description here.&lt;/p&gt;
-&lt;code&gt;QGIS · GDAL · Remote Sensing&lt;/code&gt;</code></pre>
-</div>
-</div>
-<script>
-function openModal(id) {
-  document.getElementById(id).style.display = 'flex';
-}
-function closeModal(id) {
-  document.getElementById(id).style.display = 'none';
-}
-</script>
 
 
+<div class="hidden" aria-hidden="true">
+<div class="glightbox-desc lightbox-desc-1">
+<p>The Bosque de Protección Alto Mayo (BPAM) and Santuario Nacional Cordillera de Colán (SNCC) are two protected areas in northern Peru that form part of the Abiseo-Cóndor-Kutukú transboundary conservation corridor. Using R, I processed a 30m Copernicus DEM to generate a classified slope map and an elevation histogram for a study area encompassing both protected areas and a 20 km buffer zone. Over 81% of the area has steep to very steep slopes (&gt;15%), with a highly variable elevation range of 332–3,998 m.a.s.l. (SD = 761 m), reflecting the complex Andean-Amazonian transition landscape.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-2">
+<p>Elevation distribution across the study area. Values range from 332 to 3,998 m.a.s.l. with high variability (SD = 761 m). The positively skewed distribution — with most cells concentrated below 1,000 m — reflects the dominance of mid-elevation Andean slopes transitioning into lowland Amazon forest.</p>
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -598,6 +578,38 @@ function closeModal(id) {
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
